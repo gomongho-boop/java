@@ -212,9 +212,7 @@ public class StudyCafeApp {
         System.out.print("메뉴 선택: ");
     }
 
-    // ═════════════════════════════════════════════════════════════════════════
-    // 🖥️ 최상위 컨테이너 JFrame 구현 스태틱 클래스 (기존 로직 유지)
-    // ═════════════════════════════════════════════════════════════════════════
+
     private static class InternalSeatFrame extends JFrame {
         private String currentUserName;
         private Ticket currentTicket;
